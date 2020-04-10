@@ -13184,6 +13184,13 @@ video {
   transition-duration: 1000ms;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.cursive {
+  font-family: 'Courgette', cursive;
+  font-size: 1.5em;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
