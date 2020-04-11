@@ -1,5 +1,6 @@
 import React from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => (
   <div id="contact">
@@ -8,6 +9,8 @@ const Footer = () => (
       <div className="items-center">
         <div className="text-sm lg:flex-grow">
           <a href="https://github.com/misselliev" target="_blank" rel="noreferrer noopener" className="sm:inline-block mt-4 lg:inline-block lg:mt-0 text-pink-500 hover:text-pink-400 mr-4 text-2xl">
+            <FontAwesomeIcon icon={faThumbsUp} />
+
             <i className="fab fa-github" />
           </a>
           <a href="https://www.linkedin.com/in/ellievillalejos/" target="_blank" rel="noreferrer noopener" className="sm:inline-block mt-4 lg:inline-block lg:mt-0 text-pink-500 hover:text-pink-400 mr-4 text-2xl">
