@@ -11,15 +11,12 @@ const Footer = () => (
         <div className="text-sm lg:flex-grow">
           <a href="https://github.com/misselliev" target="_blank" rel="noreferrer noopener" className="sm:inline-block mt-4 lg:inline-block lg:mt-0 text-pink-500 hover:text-pink-400 mr-4 text-2xl">
             <FontAwesomeIcon icon={faGithub} />
-            <i className="fab fa-github" />
           </a>
           <a href="https://www.linkedin.com/in/ellievillalejos/" target="_blank" rel="noreferrer noopener" className="sm:inline-block mt-4 lg:inline-block lg:mt-0 text-pink-500 hover:text-pink-400 mr-4 text-2xl">
             <FontAwesomeIcon icon={faLinkedin} />
-            <i className="fab fa-linkedin" />
           </a>
           <a href="mailto:elizabeth.villalejos@gmail.com?subject=Website%20Inquiry" className="sm:inline-block mt-4 lg:inline-block lg:mt-0 text-pink-500 hover:text-pink-400 mr-4 text-2xl">
-             <FontAwesomeIcon icon={faEnvelope} />
-            <i className="fas fa-envelope" />
+            <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </div>
       </div>
