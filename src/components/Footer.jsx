@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => (
   <div id="contact">
@@ -9,14 +10,15 @@ const Footer = () => (
       <div className="items-center">
         <div className="text-sm lg:flex-grow">
           <a href="https://github.com/misselliev" target="_blank" rel="noreferrer noopener" className="sm:inline-block mt-4 lg:inline-block lg:mt-0 text-pink-500 hover:text-pink-400 mr-4 text-2xl">
-            <FontAwesomeIcon icon={faThumbsUp} />
-
+            <FontAwesomeIcon icon={faGithub} />
             <i className="fab fa-github" />
           </a>
           <a href="https://www.linkedin.com/in/ellievillalejos/" target="_blank" rel="noreferrer noopener" className="sm:inline-block mt-4 lg:inline-block lg:mt-0 text-pink-500 hover:text-pink-400 mr-4 text-2xl">
+            <FontAwesomeIcon icon={faLinkedin} />
             <i className="fab fa-linkedin" />
           </a>
           <a href="mailto:elizabeth.villalejos@gmail.com?subject=Website%20Inquiry" className="sm:inline-block mt-4 lg:inline-block lg:mt-0 text-pink-500 hover:text-pink-400 mr-4 text-2xl">
+             <FontAwesomeIcon icon={faEnvelope} />
             <i className="fas fa-envelope" />
           </a>
         </div>
