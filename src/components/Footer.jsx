@@ -4,7 +4,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => (
-  <div id="contact">
+  <section id="contact">
     <div className="w-48 mx-auto pt-2 mb-2 border-b-2 border-purple-200 text-center text-gray-600 pt-1 cursive">Contact</div>
     <div className="flex items-center justify-center flex-wrap bg-pink-100 p-6">
       <div className="items-center">
@@ -21,7 +21,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
 );
 
