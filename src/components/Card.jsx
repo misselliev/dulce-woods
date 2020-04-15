@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Card = ({
   title, description, imagesrc, imagealt, tag1, tag2, tag3,
 }) => (
-  <div className="flex items-center justify-center  mb-8">
+  <div className="flex items-center justify-center  m-8">
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
       <img className="w-full" src={imagesrc} alt={imagealt} />
       <div className="px-6 py-4">
