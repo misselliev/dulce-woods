@@ -7,7 +7,7 @@
 Web application to showcase products for a wooden boutique, built with React and Tailwind CSS.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![alt text](docs/general.png)
+![alt text](docs/landing.png)
 
 ## 🔨 Tools
 - React
