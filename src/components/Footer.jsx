@@ -5,7 +5,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => (
   <section id="contact">
-    <div className="w-48 mx-auto pt-2 mb-2 border-b-2 border-purple-200 text-center text-yellow-900 pt-1 cursive">Contact</div>
+    <div className="w-48 mx-auto pt-2 mb-2 border-b-2 border-yellow-500 text-center text-yellow-900 pt-1 cursive">Contact</div>
     <div className="flex items-center justify-center flex-wrap bg-yellow-100 p-6">
       <div className="items-center">
         <div className="text-sm lg:flex-grow">
